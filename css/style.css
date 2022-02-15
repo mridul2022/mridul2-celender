@@ -1,0 +1,45 @@
+body{
+    /* paddig: 74px 230px*/
+    background-image:url(../img/beautiful-autumn-foliage-background-brunches-falling-tree-leaves-sky-bokeh-98280795.jpg) ;
+    background-size: cover;
+    margin-left: 425px;
+    margin-top: 118px;
+}
+.month{
+    background-color:rgb(139, 9, 245);
+    color: white;
+    margin-bottom: -5px;
+    text-align: center;
+    margin-right: 425px;
+    font-size: 40px;
+    font-family: Arial;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+.time{
+    background-color: black;
+    color:white;
+    margin-bottom: 17px;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 425px;
+    font-family: Arial;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+td{
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family:Cambria;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+
+td:hover{
+    /*width 100%;*/
+    background-color: blue;
+    color: azure;
+    cursor: pointer;
+    transition: 2s;
+}
